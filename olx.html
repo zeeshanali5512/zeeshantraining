@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+    .header1{
+       
+        display: inline-block;
+    width: 100%;
+    height: 65px;
+    background-color: rgb(248, 244, 244);
+    position: fixed;
+    top: 0px;
+        z-index: 2;
+    }
+    .header2{
+    display: inline-block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    /* margin: 0%; */
+    height: 65px;
+    width: 100px;
+    position: relative;
+}
+    
+.header3{
+    display: inline-block;
+    border: 2px solid black;
+    top: -15px;
+    left: 0;
+    position: relative;
+    height: 40px;
+    width: 292px;
+    vertical-align: middle;
+}
+.header4{
+
+    vertical-align: middle;
+    top: -9px;
+    left: 28px;
+    position: relative;
+}
+
+
+.header5{
+    border: 2px solid black;
+    display: inline-block;
+    position: relative;
+    width: 598px;
+    height: 40px;
+    top: -15px;
+    left: 35px;
+}
+.header6{
+    display: inline-block;
+    background-color: rgb(91, 91, 233);
+    width: 55px;
+    top: -22px;
+    height: 45px;
+    position: relative;
+    left: 30px;
+}
+.header7{
+    display: inline-block;
+    position: relative;
+    left: 50px;
+    top: -21px;
+    width: 110px;
+    height: 46px;
+    background-color: blue;
+}
+.location1{
+    width:50px;
+     height:40px; 
+}
+.location2{
+    width: 192px;
+    height: 36px;
+    /* font-weight: 100; */
+    font-size: 1.3em;
+    margin-left: -4px;
+    margin-right: -5px;
+    top: -13px;
+    position: relative;
+}
+.location3{
+    width: 47px;
+    height: 40px;
+    margin-right: 0px;
+}
+.search1{
+    width: 594px;
+    height: 34px;
+}
+.search2{
+    position: relative;
+    left: 18px;
+    top: 12px;
+}
+.login1{
+    display: inline-block;
+    position: relative;
+    left: 40px;
+    width: 75px;
+    height: 45px;
+    vertical-align: middle;
+    top: -6px;
+    text-decoration: none;
+}
+.login2{
+    font-size: 1.3em;
+    color:blue;
+    font-weight: bold;
+    text-decoration: none;
+}
+.login3{
+    text-decoration: none;
+}
+.sell1{
+    text-decoration: none;
+position: relative;
+font-size: 1.4em;
+font-style: oblique;
+color: white;
+top: 8px;
+left: 40px;
+}
+.sell2{
+    position: relative;
+width: 25px;
+height: 20px;
+top: 5px;
+right: 84px;
+}
+.box1{
+    float: right;
+}
+.box2{
+    width: 200px;
+    height: 100px;
+    background-color: aqua;
+    margin: 10px ;
+}
+.box3{
+    width: 200px;
+    height: 100px;
+    background-color: aqua;
+    margin: 10px 
+}
+.box4{
+    width: 200px;
+    height: 100px;
+    background-color: aqua;
+    margin: 10px ;
+}
+.box5{
+    width: 200px;
+    height: 100px;
+    background-color: aqua;
+}
+.r1{
+    position: relative;
+    margin-top: 105px;
+}
+.r2{
+    position: relative;
+    margin-top: 0px;
+}
+.car1{
+    width: 200px;
+    height: 200px;
+    margin-left: 45px;
+    margin-top: -20px;
+}
+.item1{
+display: inline-block;
+    border: 0.8px solid rgb(180, 178, 178);
+width: 290px;
+height: 300px;
+margin-left: 15px;
+
+}
+.item2{
+    display: inline-block;
+    border: 0.8px solid rgb(180, 178, 178);
+width: 290px;
+height: 300px;
+margin-left: 15px;
+}
+.item3{
+    display: inline-block;
+    border: 0.8px solid rgb(180, 178, 178);
+width: 290px;
+height: 300px;
+margin-left: 15px;
+}
+.item4{
+    display: inline-block;
+    border: 0.8px solid rgb(180, 178, 178);
+width: 290px;
+height: 300px;
+margin-left: 15px;
+}
+.hearticon{
+    width: 31px;
+    height: 31px;
+    float: right;
+    top: 10px;
+    right: 10px;
+}
+.feature1{
+font-size: 1em;
+font-weight: bold;
+background-color: rgb(218, 171, 85);
+float: left;
+}
+.ficon{
+    display: inline-block;
+    position: relative;
+    width: 265px;
+    top: 15px;
+    left: 17px;;
+}
+.detail1{
+    display: inline-block;
+    border-left: 5px solid orange;
+    border-radius: 2px;
+    width: 288px;
+    height: 82px;
+    margin: 0px;
+}
+.setloc{
+    float: left;
+    margin-top: -10px;
+    margin-left: 10px;
+
+}
+.setdate{
+    float: right;
+    margin-top: -10px;
+    margin-right: 10px;
+}
+.loadmore{
+    margin-top: 25px;
+    width: 100px;
+    height: 50px;
+    font-size: 16px;
+    color: rgb(59, 59, 190);
+    font-weight: 700;
+    background-color: rgb(207, 248, 248);
+    border: 2px solid rgb(42, 42, 212);
+}
+.nothing{
+    width: 100%;
+    height: 500px;
+}
+.section1{
+
+    display: inline-block;
+    width:260px;
+    height: 250px;
+   
+}
+.section2{
+    border-top: 1px solid rgb(194, 188, 188);
+    display: inline-block;
+    width: 100%;
+    height: 300px;
+    background-color: rgb(238, 237, 237);
+}
+.bodyitem{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: rgb(219, 215, 215);
+    display: inline-block;
+}
+</style>
+<body>
+    <header>
+    <div class="header1">
+        <div class="header2">
+        <h1 class="header4">Olx</h1></div>
+        <div class="header3">
+            <img src="download.png" class="location1" >
+        <input type="text" width="100px" height="25px"class="location2">
+            <img src="drop down.png" class="location3">
+    </div>
+        <div class="header5">
+        <input type="text" class="search1">
+        </div>
+        <div class="header6">
+                <img src="searchicon.png" width="20px" height="20px" alt="search" class="search2">
+        </div>
+        <div class="login1">
+                <a href="#" class="login2">LOGIN</a>
+        </div>
+        <div class="header7">
+            
+        <a href="#" class="sell1">SELL
+                <img src="camera1.png" alt="HTML tutorial"  class="sell2">
+              </a>
+        </div>
+    </div>
+</header>
+<!-- <div>
+<nav class="navbar navbar-inverse">
+        <ul class="nav navbar-nav">
+          <li><a href="#">Link</a></li>
+          <li><a href="#">Link</a></li>
+        </ul>
+        <p class="navbar-text">Some text</p>
+      </nav>
+      
+      <div class="container">
+        <h3>Navbar Text</h3>
+        <p>Use the .navbar-text class to vertical align any elements inside the navbar that are not links (ensures proper padding).</p>
+      </div>
+</div> -->
+
+<!-- <div class="box1">
+    <div class="box2"></div>
+    <div class="box3"></div>
+    <div class="box4"></div>
+    <div class="box5"></div>
+</div> -->
+
+
+<div>
+    <ul class="r1">
+        <li class="item1">
+            <div class="ficon">
+            <b class="feature1">Feature</b>
+            <img src="hearticon.png" title="GOOD" class="hearticon">
+            </div>
+       <img src="car1.jpg" title="Available for sale" class="car1"> 
+       <div class="detail1">
+       <p>
+           <b>RS 500,000</b>
+           Flexible </br>
+           Good driving.
+       </p>
+       <span class="setloc">
+           Faisalabad,Punjab
+       </span>
+       <span class="setdate">05Oct</span>
+       </div>   
+        </li>
+        <li class="item2">
+                <div class="ficon">
+                <b class="feature1">Feature</b>
+                <img src="hearticon.png" title="GOOD" class="hearticon">
+                </div>
+           <img src="house1.jpg" title="Available for sale" class="car1"> 
+           <div class="detail1">
+           <p>
+               <b>RS 11,500,000</b>
+                </br>
+                Marbel and tiles.
+           </p>
+           <span class="setloc">
+               Faisalabad,Punjab
+           </span>
+           <span class="setdate">03Oct</span>
+           </div>   
+            </li>
+            <li class="item3">
+                    <div class="ficon">
+                    <b class="feature1">Feature</b>
+                    <img src="hearticon.png" title="GOOD" class="hearticon">
+                    </div>
+               <img src="motorsycle1.jpg" title="Available for sale" class="car1"> 
+               <div class="detail1">
+               <p>
+                   <b>RS 200,000</b>
+                   Flexible Heavy Bike </br>
+                   Good driving.
+               </p>
+               <span class="setloc">
+                   Faisalabad,Punjab
+               </span>
+               <span class="setdate">03Oct</span>
+               </div>   
+                </li>
+                <li class="item4">
+                        <div class="ficon">
+                        <b class="feature1">Feature</b>
+                        <img src="hearticon.png" title="GOOD" class="hearticon">
+                        </div>
+                   <img src="car2.jpg" title="Available for sale" class="car1"> 
+                   <div class="detail1">
+                   <p>
+                       <b>RS 1,500,000</b>
+                       Flexible Auto Car </br>
+                       Good driving.
+                   </p>
+                   <span class="setloc">
+                       Faisalabad,Punjab
+                   </span>
+                   <span class="setdate">02Oct</span>
+                   </div>   
+                    </li>
+    </ul>
+</div>
+
+<div>
+        <ul class="r2">
+                <li class="item1">
+                    <div class="ficon">
+                    <b class="feature1">Feature</b>
+                    <img src="hearticon.png" title="GOOD" class="hearticon">
+                    </div>
+               <img src="sycle1.jpg" title="Available for sale" class="car1"> 
+               <div class="detail1">
+               <p>
+                   <b>RS 10,000</b>
+                   Flexible </br>
+                   Racing Sycle.
+               </p>
+               <span class="setloc">
+                   Faisalabad,Punjab
+               </span>
+               <span class="setdate">02Oct</span>
+               </div>   
+                </li>
+                <li class="item2">
+                        <div class="ficon">
+                        <b class="feature1">Feature</b>
+                        <img src="hearticon.png" title="GOOD" class="hearticon">
+                        </div>
+                   <img src="house2.jpg" title="Available for sale" class="car1"> 
+                   <div class="detail1">
+                   <p>
+                       <b>RS 8,000,000</b>
+                        </br>
+                        Marbel and tiles.
+                   </p>
+                   <span class="setloc">
+                       Faisalabad,Punjab
+                   </span>
+                   <span class="setdate">01Oct</span>
+                   </div>   
+                    </li>
+                    <li class="item3">
+                            <div class="ficon">
+                            <b class="feature1">Feature</b>
+                            <img src="hearticon.png" title="GOOD" class="hearticon">
+                            </div>
+                       <img src="motorsycle2.jpg" title="Available for sale" class="car1"> 
+                       <div class="detail1">
+                       <p>
+                           <b>RS 250,000</b>
+                           Flexible Heavy Bike </br>
+                           Good driving.
+                       </p>
+                       <span class="setloc">
+                           Faisalabad,Punjab
+                       </span>
+                       <span class="setdate">31Sep</span>
+                       </div>   
+                        </li>
+                        <li class="item4">
+                                <div class="ficon">
+                                <b class="feature1">Feature</b>
+                                <img src="hearticon.png" title="GOOD" class="hearticon">
+                                </div>
+                           <img src="car3.jpg" title="Available for sale" class="car1"> 
+                           <div class="detail1">
+                           <p>
+                               <b>RS 1,200,000</b>
+                               Flexible Car</br>
+                               Good driving.
+                           </p>
+                           <span class="setloc">
+                               Faisalabad,Punjab
+                           </span>
+                           <span class="setdate">29Sep</span>
+                           </div>   
+                            </li>
+            </ul>
+</div>
+<div>
+        <ul class="r2">
+                <li class="item1">
+                    <div class="ficon">
+                    <b class="feature1">Feature</b>
+                    <img src="hearticon.png" title="GOOD" class="hearticon">
+                    </div>
+               <img src="motorsycle6.jpg" title="Available for sale" class="car1"> 
+               <div class="detail1">
+               <p>
+                   <b>RS 55,000</b>
+                   Flexible </br>
+                   For sale urgently.
+               </p>
+               <span class="setloc">
+                   Faisalabad,Punjab
+               </span>
+               <span class="setdate">20Sep</span>
+               </div>   
+                </li>
+                <li class="item2">
+                        <div class="ficon">
+                        <b class="feature1">Feature</b>
+                        <img src="hearticon.png" title="GOOD" class="hearticon">
+                        </div>
+                   <img src="riksha1.jpg" title="Available for sale" class="car1"> 
+                   <div class="detail1">
+                   <p>
+                       <b>RS 200,000 Available</b>
+                        </br>
+                        Source for earning.
+                   </p>
+                   <span class="setloc">
+                       Faisalabad,Punjab
+                   </span>
+                   <span class="setdate">09Sep</span>
+                   </div>   
+                    </li>
+                    <li class="item3">
+                            <div class="ficon">
+                            <b class="feature1">Feature</b>
+                            <img src="hearticon.png" title="GOOD" class="hearticon">
+                            </div>
+                       <img src="sycle3.jpg" title="Available for sale" class="car1"> 
+                       <div class="detail1">
+                       <p>
+                           <b>RS 50,000</b>
+                           Flexible</br>
+                           Simple Riding.
+                       </p>
+                       <span class="setloc">
+                           Faisalabad,Punjab
+                       </span>
+                       <span class="setdate">19Sep</span>
+                       </div>   
+                        </li>
+                        <li class="item4">
+                                <div class="ficon">
+                                <b class="feature1">Feature</b>
+                                <img src="hearticon.png" title="GOOD" class="hearticon">
+                                </div>
+                           <img src="car4.jpg" title="Available for sale" class="car1"> 
+                           <div class="detail1">
+                           <p>
+                               <b>RS 3,000,000</b>
+                               Flexible Car</br>
+                               Good driving 8 seats.
+                           </p>
+                           <span class="setloc">
+                               Faisalabad,Punjab
+                           </span>
+                           <span class="setdate">22Sep</span>
+                           </div>   
+                            </li>
+            </ul>
+</div>
+<center>
+<button type="button" class=" loadmore">Load More</button></center>
+<div class="nothing">
+
+</div>
+<section class="section2">
+<section class="section1">
+    <div class="">
+        <ul class="">
+            <li>POPULAR CATEGORISE</li>
+            <li > <a href="Cars">Cars</a> </li>
+            <li class="Flats"><a href="Flats for rent"> Flats for rent</a></li>
+            <li class="jobs"><a href=" jobs">Jobs</a></li>
+            <li><a href="mobile">Mobile Phones</a></li>
+        </ul>
+    </div>
+</section>
+<Section class="section1">
+    <div>
+        <ul>
+            <li>TRENDING SEARCHES
+            </li>
+            <li > <a href="Bikes">Bikes</a> </li>
+            <li class=""><a href="Watches">Watches</a></li>
+            <li class=""><a href=" books">Books</a></li>
+            <li><a href="dog">Dogs</a></li>
+        </ul>
+    </div>
+</Section>
+<Section class="section1">
+        <div>
+            <ul>
+                <li>ABOUT US
+                </li>
+                <li class="bodyitem"> <a href="olx group">About OLX Group</a> </li></br>
+                <li class="bodyitem"><a href="olx blog">OLX Blog</a></li></br>
+                <li class="bodyitem"><a href="contact ">Contact Us</a></li></br>
+                <li class="bodyitem"><a href="business">OLX For Business</a></li></br>
+            </ul>
+        </div>
+    </Section>
+<Section class="section1">
+        <div>
+            <ul>
+                <li>OLX
+                </li>
+                <li > <a href="help">Help</a> </li>
+                <li class=""><a href="map"> Sitemap</a></li>
+                <li class=""><a href=" Legal and Privacy">Legal and Privacy</a></li>
+            </ul>
+        </div>
+    </Section>
+    
+        <Section class="section1">
+                <div>
+                    <ul>
+                        <li>FOLLOW US
+                        </li>
+                        <li > <a href="wwww.facebook.com">Bikes</a> </li>
+                        <li class=""><a href="www.twitter.com"></a>Watches</li>
+                        <li class=""><a href="www.youtube.com">Books</a></li>
+                        <li><a href="www.instagram.com">Dogs</a></li>
+                    </ul>
+                </div>
+
+            </Section>
+        </section>
+        </body>  
+
+</html>
