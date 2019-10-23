@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+    .bodystyle{
+        margin-left: 15px;
+        margin-right: 15px;
+        width: 97vw;
+        height: 275vh;
+    }
+.header{
+  
+    display: grid;
+    
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.logoimg{
+    width: 600px;
+    height: 200px;
+    margin-left: -80px;
+    margin-top: -15px;
+}
+.area{
+    
+    width: 95vw;
+    height: 245px;
+    display: grid;
+    grid: 210px / 560px 740px;
+    /* background-color: aqua;
+    border: 1px solid blue; */
+}
+.area1:nth-child(1){
+    min-width: 500px;
+    max-width: 600px;
+
+
+}
+.area:nth-child(2){
+    min-width: 500px;
+    max-width: 750px;
+}
+.headspan1{
+    display: inline-block;
+    font-size: 2.5em;
+    font-weight: 100;
+    color: lightblue;
+    margin: 6px;
+    margin-top: -19px;
+    margin-left: 280px;
+}
+.headsup1{
+    background-color: rgb(240, 250, 101);
+    font-weight: bold;
+    margin-top: -15px;
+    position: absolute;
+    border-radius: 5px;
+}
+.headspan2{
+    font-size: 1.3em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+}
+
+.headspan3{
+    display: inline-block;
+    font-size: 4.5em;
+    font-weight: 100;
+    color: lightblue;
+    margin: 6px;
+    margin-top: 20px;
+}
+.headsup2{
+    background-color: rgb(240, 250, 101);
+    font-weight: bold;
+    margin-top: 48px;
+    position: absolute;
+    border-radius: 5px;
+}
+.headspan4{
+    font-size: 1.3em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+}
+.headspan5{
+margin-left: 0px;
+word-spacing: 5px;
+line-height: 1px;
+}
+.headimg2{
+    width: 50px;
+    height: 30px;
+}
+.headdiv2{
+    margin-left: 320px;
+    margin-top: 0px;
+}
+.headdiv1{
+    margin-top: -40px;
+    margin-left: 30px;
+}
+.headdiv4{
+    width: 95vw;
+    height: 50px;
+    display: grid;
+    background-color: black;
+border-radius: 30px;
+margin-top: -20px;
+}
+.button{
+    background-color: rgb(185, 250, 87);
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    width: 115px;
+    margin-left: 27px;
+    height: 47px;
+    position: relative;
+}
+.button1{
+    background-color:black;
+    color: White;
+
+}
+.button1:hover{
+    background-color:rgb(81, 81, 247);
+    color: black;
+    width: 100px;
+}
+.button2{
+    background-color:black;
+    color: White;
+
+}
+.button2:hover{
+    background-color:rgb(81, 81, 247);
+    color: black;
+    width: 100px;
+}
+.button3{
+    background-color:black;
+    color: White;
+
+}
+.button3:hover{
+    background-color:rgb(81, 81, 247);
+    color: black;
+    width: 100px;
+}
+.button4{
+    background-color:black;
+    color: White;
+
+}
+.button4:hover{
+    background-color:rgb(81, 81, 247);
+    color: black;
+    width: 100px;
+}
+.button5{
+    background-color:black;
+    color: White;}
+.button5:hover{
+    background-color:rgb(81, 81, 247);
+    color: black;
+    width: 100px;
+}
+
+.navspan{
+    margin-left: 100px;
+}
+.after-navdiv1{
+    width: 95vw;
+    height: 260px;
+    background-color: rgb(241, 248, 248);
+    display: grid;
+    grid: 260px / 800px 475px;
+}
+
+.manimg{
+    width: 600px;
+    height: 260px;
+    background-color: rgb(241, 248, 248);
+}
+.after-navspan
+{
+margin-left: 200px;
+}
+.imgdiv{
+    margin-top: 70px;
+    color: rgb(123, 123, 250);
+    font-size: 2.5em;
+    margin-left: 90px;
+}
+.afterimg-div{
+    width: 66vw;
+    height: 100vh;
+    background-color: aqua;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.threeblock{
+    width: 66vw;
+    height: 260px;
+    display: grid;
+    grid: 260px / 225px 225px 225px 225px;
+    margin-left: 200px;
+}
+.firstblock:nth-child(1){
+    
+background-color: rgb(127, 225, 255);
+}
+.blockdiv1{
+    margin: 15px;
+
+}
+.blockdiv2{
+    font-size: 1.3em;
+    font-weight: bold;
+    margin: 0px;
+}
+.blockdiv3{
+    margin-left: 15px;
+    line-height: 20px;
+}
+.secondblock:nth-child(2){
+    
+    background-color: rgb(127, 225, 255);
+}
+.thirdblock:nth-child(3){
+    
+    background-color: rgb(127, 225, 255);
+}
+.fourblock:nth-child(4){
+
+    background-color: rgb(127, 225, 255);
+}
+.twobytwo{
+    width: 66vw;
+    height: 260px;
+    display: grid;
+    grid: 130px  130px/ 450px 450px;
+    margin-left: 200px;
+}
+.one:nth-child(1){
+
+border-bottom: rgb(214, 211, 211);
+
+}
+.blockspan1{
+    width: 50px;
+display: inline-block;
+    margin: 35px;
+}
+.blockspan2{
+    font-size: 1.1em;
+    font-weight: bold;
+}
+.blockspan3{
+    display: inline-block;
+    margin-left: 0;
+    width: 280px;
+    position: relative;
+}
+.two:nth-child(2){
+    
+    border-bottom: rgb(214, 211, 211);
+}
+.three:nth-child(3){
+    
+border-bottom: rgb(113, 187, 99);
+}
+.four:nth-child(4){
+    
+    border-bottom: rgb(113, 187, 99);
+}
+
+.longthree{
+    width: 66vw;
+    height: 500px;
+    display: grid;
+    grid: 500px/ 300px 300px 300px;
+    margin-left: 200px;
+}
+.lone:nth-child(1){
+
+border-bottom: rgb(199, 196, 196);
+
+}
+.readmore{
+background-color: rgb(87, 204, 250);
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    width: 115px;
+    margin-left: 85px;
+    height: 47px;
+    position: relative;
+    margin-top: 12px;
+}
+.ltwo:nth-child(2){
+    
+    border-bottom: rgb(214, 211, 211);
+}
+.correcticon{
+    margin-left: 15px;
+}
+.lthree:nth-child(3){
+    
+border-bottom: rgb(113, 187, 99);
+}
+.lastone1{
+width: 250px;
+height: 250px;
+background-color: rgb(150, 150, 253);
+margin: 25px;
+}
+.footer{
+    width: 95vw;
+    height: 40vh;
+    background-color: rgb(150, 148, 148);
+    
+}
+.lthree2{
+    margin-left: 10px;
+}
+.lthree3{
+    margin-top: 10px;
+    line-height: 30px;
+}
+.lthree4{
+    width: 250px;
+    height: 230px;
+    margin-left: 20px;
+}
+.footer3{
+    width: 66vw;
+    height: 240px;
+    display: grid;
+    grid: 230px/ 300px 300px 300px;
+    margin-left: 200px;
+}
+
+.foot1:nth-child(1){
+
+
+}
+.footerdiv1{
+    width: 50px;
+display: inline-block;
+    margin: 30px;
+}
+.footerdiv2{
+    font-size: 1.1em;
+    font-weight: bold;
+}
+.footerdiv3{
+    display: inline-block;
+    margin-left: 0;
+    width: 150px;
+    position: relative;
+    top:-15px;
+}
+.foot2:nth-child(2){
+    
+    
+}
+.foot3:nth-child(3){
+
+
+}
+
+</style>
+<body>
+    
+        
+<div class="bodystyle">
+
+    <div class="area">
+<div class="area1"> <span><img src="logo.png" alt="business" class="logoimg">
+</span>
+<div class="headdiv1">
+<span><span class="headspan1">Business</span>
+    <sup class="headsup1">FREE</sup>
+    <span class="headspan2">Company</span></span></div>
+</div>
+
+<div class="area2"> 
+    <span><span class="headspan3">Business</span>
+    <sup class="headsup2">FREE</sup>
+    <span class="headspan4">Company</span></span>
+    <div class="headdiv2">
+<span class="headspan5"></br>
+    <img src="bluephone.jpg" class="headimg2">
+    0300-9808859</br>
+    for further details please contect on this number</span></div>
+</div>
+
+<div class="headdiv4">
+    <span class="navspan">
+        <button type="submit" class="button button1"> HOME</button>
+        <button type="submit" class="button button2"> BUSINESS</button>
+        <button type="submit" class="button button3"> SERVICES</button>
+        <button type="submit" class="button button4"> SUPPORT</button>
+        <button type="submit" class="button button5"> CONNECT</button>
+    </span>
+</div>
+    </div>
+
+<div class="after-navdiv1">
+    <div class="after-navdiv2">
+<span class="after-navspan">
+    <img src="manshowingthumb.jpg" class="manimg">
+</span>
+    </div>
+    <div class="after-navdiv2">
+        <div class="imgdiv">Helping with any of </br>
+        your business needs!
+        </div>
+    </div>
+</div>
+
+
+<div class="afterimg">
+<div class="threeblock">
+<div class="firstblock"> 
+   <div class="blockdiv1"> 
+       <img src="cartoon.jpg" width="80px" height="50px"></br>
+    <span class="blockdiv2"> Business </br> Services</span></div>
+    <div class="blockdiv3">we provide better support services.
+        We provide to better oppertunity.
+        This site provide to you good business services.
+        After joining this you can earn a lot of money.
+    </div>
+</div>
+
+<div class="secondblock"> 
+        <div class="blockdiv1"> 
+                <img src="cartoon.jpg" width="80px" height="50px"></br>
+             <span class="blockdiv2"> New </br>Ideas</span></div>
+             <div class="blockdiv3">we provide better support services.
+                 We provide to better oppertunity.
+                 This site provide to you good business services.
+                 After joining this you can earn a lot of money.
+             </div>
+</div>
+
+<div class="thirdblock">
+        <div class="blockdiv1"> 
+                <img src="cartoon.jpg" width="80px" height="50px"></br>
+             <span class="blockdiv2"> New </br>Setting</span></div>
+             <div class="blockdiv3">we provide better support services.
+                 We provide to better oppertunity.
+                 This site provide to you good business services.
+                 After joining this you can earn a lot of money.
+             </div>
+</div>
+
+<div class="fourblock">
+        <div class="blockdiv1"> 
+                <img src="cartoon.jpg" width="80px" height="50px"></br>
+             <span class="blockdiv2"> New</br> Management</span></div>
+             <div class="blockdiv3">we provide better support services.
+                 We provide to better oppertunity.
+                 This site provide to you good business services.
+                 After joining this you can earn a lot of money.
+             </div>
+</div>
+</div>
+
+<div class="twobytwo">
+<div class="one">
+        <div class="blockspan1">
+                <img src="cartoon.jpg" width="80px" height="70px">
+           </div>
+           <div class="blockspan3"><span class="blockspan2"> We trained to you:</span></br>
+           we provide better support services.
+               This site provide to you good business services.
+               After joining this you can earn.
+           </div>
+</div>
+
+<div class="two">
+    <div class="blockspan1">
+         <img src="cartoon.jpg" width="80px" height="70px">
+    </div>
+    <div class="blockspan3"><span class="blockspan2"> We trained to you:</span></br>
+    we provide better support services.
+        This site provide to you good business services.
+        After joining this you can earn.
+    </div>
+</div>
+
+<div class="three">
+        <div class="blockspan1">
+                <img src="cartoon.jpg" width="80px" height="70px">
+           </div>
+           <div class="blockspan3"><span class="blockspan2"> We trained to you:</span></br>
+           we provide better support services.
+               This site provide to you good business services.
+               After joining this you can earn.
+           </div>
+</div>
+
+<div class="four">
+        <div class="blockspan1">
+                <img src="cartoon.jpg" width="80px" height="70px">
+           </div>
+           <div class="blockspan3"><span class="blockspan2"> We trained to you:</span></br>
+           we provide better support services.
+               This site provide to you good business services.
+               After joining this you can earn.
+           </div>
+</div>
+</div>
+
+<div class="longthree">
+<div class="lone">
+    <div>
+        <b>About</b>
+        <img src="thumbshowing1.jpg" width="290px" height="200px;">
+    </div>
+    <div>
+            we provide better support services.
+            This site provide to you good business services.
+            After joining this you can earn a lot of money.
+            we provide better support services.
+        This site provide to you good business services.
+        After joining this you can earn a lot of money.
+        This site provide to you good business services.
+            After joining this you can earn a lot of money.
+            we provide better support services.
+        This site provide to you good business services.
+        After joining this you can earn a lot of money.
+    </div>
+    <button type="submit" class="readmore"> Read More </button>
+</div>
+
+<div class="ltwo">
+    <span class="blockdiv2"> Services</span></br>
+    <a href="#">
+        <img src="correct.png" alt="HTML tutorial" style="width:20px;height:20px;"> <span class="correcticon">he is for you</span>
+      </a></hr><br>
+      <a href="#">
+        <img src="correct.png" alt="HTML tutorial" style="width:20px;height:20px;"> <span class="correcticon">he is for you</span>
+      </a></hr><br>
+      <a href="#">
+        <img src="correct.png" alt="HTML tutorial" style="width:20px;height:20px;"> <span class="correcticon">he is for you</span>
+      </a></hr><br>
+      <a href="#">
+        <img src="correct.png" alt="HTML tutorial" style="width:20px;height:20px;"> <span class="correcticon">he is for you</span>
+      </a></hr><br>
+      <a href="#">
+        <img src="correct.png" alt="HTML tutorial" style="width:20px;height:20px;"> <span class="correcticon">he is for you</span>
+      </a></hr><br>
+      <a href="#">
+        <img src="correct.png" alt="HTML tutorial" style="width:20px;height:20px;"> <span class="correcticon">he is for you</span>
+      </a></hr><br>
+      <a href="#">
+        <img src="correct.png" alt="HTML tutorial" style="width:20px;height:20px;"> <span class="correcticon">he is for you</span>
+      </a></hr><br>
+      <a href="#">
+        <img src="correct.png" alt="HTML tutorial" style="width:20px;height:20px;"> <span class="correcticon">he is for you</span>
+      </a></hr><br>
+      <a href="#">
+        <img src="correct.png" alt="HTML tutorial" style="width:20px;height:20px;"> <span class="correcticon">he is for you</span>
+      </a></hr><br>
+      <a href="#">
+        <img src="correct.png" alt="HTML tutorial" style="width:20px;height:20px;"> <span class="correcticon">he is for you</span>
+      </a></hr><br>
+      <a href="#">
+        <img src="correct.png" alt="HTML tutorial" style="width:20px;height:20px;"> <span class="correcticon">he is for you</span>
+      </a></hr><br>
+      <a href="#">
+        <img src="correct.png" alt="HTML tutorial" style="width:20px;height:20px;"> <span class="correcticon">he is for you</span>
+      </a></hr><br>
+      <a href="#">
+        <img src="correct.png" alt="HTML tutorial" style="width:20px;height:20px;"> <span class="correcticon">he is for you</span>
+      </a></hr><br>
+      <a href="#">
+        <img src="correct.png" alt="HTML tutorial" style="width:20px;height:20px;"> <span class="correcticon">he is for you</span>
+      </a></hr><br>
+      <a href="#">
+        <img src="correct.png" alt="HTML tutorial" style="width:20px;height:20px;"> <span class="correcticon">he is for you</span>
+      </a></hr><br>
+      <a href="#">
+        <img src="correct.png" alt="HTML tutorial" style="width:20px;height:20px;"> <span class="correcticon">he is for you</span>
+      </a></hr><br> 
+      <button type="submit" class="readmore"> Read More </button>
+</div>
+
+<div class="lthree">
+    <div class="lastone1">
+        <div class="lthree2"> <img src="message1.png" width="30px" height="30px">
+            <span class="blockdiv2"> Help center</span> </div> </hr>
+            <p class="lthree3">  <span class="blockdiv2"> You Professional </span></br>
+                we provide better support services.</br>
+                This site provide to you good business services.</br>
+                After joining this you can earn a lot of money.<br></p>
+    </div>
+    <div class="lthree4"> <img src="quotimg.jpg" width="250px" height="180px"></div>
+</div>
+</div>
+
+<div class="footer">
+    <div class="footer3">
+    <div class="foot1">
+            <div class="footerdiv1">
+                    <img src="locationiconblue.jpg" width="40px" height="40px">
+               </div>
+               <div class="footerdiv3"><a href="#"> Chibban road St/8fsd</a></br>
+               </div>
+               <div class="footerdiv1">
+                    <img src="messageiconblue.jpg" width="40px" height="40px">
+               </div>
+               <div class="footerdiv3"><a href="#"> Message For help</a></br>
+               </div>
+    </div>
+
+    <div class="foot2">
+            <div class="footerdiv1">
+                    <img src="bluephone.jpg" width="40px" height="40px">
+               </div>
+               <div class="footerdiv3"><a href="#"> +92304-9808858</a></br>
+               </div>
+               <div class="footerdiv1">
+                    <img src="faxiconblue.png" width="40px" height="40px">
+               </div>
+               <div class="footerdiv3"><a href="#"> +001-111-444-444</a></br>
+               </div>
+    </div>
+
+    <div class="foot3">
+            <div class="footerdiv1">
+                    <img src="facebookiconblue.png" width="40px" height="40px">
+               </div>
+               <div class="footerdiv3"><a href="#"> www.facebook.com</a></br>
+               </div>
+               <div class="footerdiv1">
+                    <img src="twittericonblue.png" width="40px" height="40px">
+               </div>
+               <div class="footerdiv3"><a href="#"> www.twittwer.com</a></br>
+               </div>
+    </div>
+    </div>
+</div>
+
+
+
+</div>
+</div>
+</body>
+</html>
